@@ -1,101 +1,121 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik:wght@300&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik:wght@300&display=swap");
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;            
-        }
-        html,
-        body,
-        .wrapper {
-            height: 10%;
-
-        }
-        body {
-            font-family: 'Roboto',
-            sans-serif;
-        }
-        .wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 40px;
-        }
-        .item {
-            width: 300px;
-        }
-        .text {
-            line-height: 1.5;
-            margin: 1rem 0;
-        }
-        .subtitle {
-            font-size: 2.5rem;
-            font-weight: 400;
-        }
-        image {
-            width: 300px;
-        }
-        .link {
-            color: black;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body,
+      .wrapper {
+        height: 100%;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .wrapper {
+        display: flex;
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px, 40px;
+      }
+      .item {
+        width: 500px;
+        margin: 50px, 50px, 0, 50px;
+        padding: 50px, 50px, 50px, 50px;
+        /* background-color: aquamarine; */
+      }
+      .text {
+        line-height: 1.5;
+        margin: 1rem 0;
+      }
+      .subtitle {
+        font-size: 2.5rem;
+        font-weight: 400;
+      }
+      .image {
+        width: 500px;
+        /* margin: 50px, 50px, 50px, 50px; */
+      }
+      .link {
+        color: black;
+      }
+      
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="item">
-            <figure class="picture">
-                <img src="https://images.unsplash.com/photo-1666167494533-73460f339cf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="">
-            </figure>
-            <h2 class="subtitle">
-                01/
-            </h2>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim ipsum, corrupti adipisci eum autem maiores atque facere similique cumque repellendus nobis voluptate aspernatur voluptatibus quaerat perferendis consequuntur animi dolor.
-            </p>
-
-            <div> <a class="link" href="">Read more
-            </div>
+      <div class="item">
+        <figure class="picture">
+          <img
+            class="image"
+            src="https://images.unsplash.com/photo-1666167494533-73460f339cf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            alt=""
+          />
+        </figure>
+        <h2 class="subtitle">01/</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim
+          ipsum, corrupti adipisci eum autem maiores atque facere similique
+          cumque repellendus nobis...
+        </p>
+        <div>
+          <a class="link" href="">Read more</a>          
         </div>
-    </div>
+      </div>
 
-    <div class="wrapper">
-        <div class="item">
-            <figure class="picture">
-                <img src="http://via.placeholder.com/300x500" alt="">
-            </figure>
-            <h2 class="subtitle">
-                02/
-            </h2>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim ipsum, corrupti adipisci eum autem maiores atque facere similique cumque repellendus nobis voluptate aspernatur voluptatibus quaerat perferendis consequuntur animi dolor.
-            </p>
+      <div class="item">
+        <figure class="picture">
+          <img
+            class="image"
+            src="https://images.unsplash.com/photo-1666167494533-73460f339cf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            alt=""
+          />
+        </figure>
+        <h2 class="subtitle">02/</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim
+          ipsum, corrupti adipisci eum autem maiores atque facere similique
+          cumque repellendus nobis...
+        </p>
+        <div>
+          <a class="link" href="">Read more</a>
         </div>
-    </div>
+      </div>
 
-    <div class="wrapper">
-        <div class="item">
-            <figure class="picture">
-                <img src="http://via.placeholder.com/300x500" alt="">
-            </figure>
-            <h2 class="subtitle">
-                03/
-            </h2>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim ipsum, corrupti adipisci eum autem maiores atque facere similique cumque repellendus nobis voluptate aspernatur voluptatibus quaerat perferendis consequuntur animi dolor.
-            </p>
+      <div class="item">
+        <figure class="picture">
+          <img
+            class="image"
+            src="https://images.unsplash.com/photo-1666167494533-73460f339cf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            alt=""
+          />
+        </figure>
+        <h2 class="subtitle">03/</h2>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim
+          ipsum, corrupti adipisci eum autem maiores atque facere similique
+          cumque repellendus nobis...
+        </p>
+        <div>
+          <a class="link" href="">Read more</a>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
