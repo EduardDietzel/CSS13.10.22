@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,
+        body {        
+            height: 100%;
+        }
+        .wrapper {
+            display: grid;
+            
+            grid-template-columns: repeat(4, 300px);
+            grid-template-rows: repeat(3, 200px);
+            grid-template-areas: 
+            "sidebar header header banner1"
+            "sidebar main1 main2 banner2"
+            "sidebar footer1 footer2 banner2";
+            gap: 10px;
+        }
+        
+        .sidebar {
+            grid-area: sidebar;
+            background: #16a085;
+        }
+        .header {
+            grid-area: header;
+            background: #16a085;
+        }
+        .main1 {
+            grid-area: main1;
+            background: #f1c40f;
+        }
+        .main2 {
+            grid-area: main2;
+            background: #c0392b;
+        }
+        .banner1 {
+            grid-area: banner1;
+            background: #c0392b;
+        }
+        .banner2 {
+            grid-area: banner2;
+            background: #16a085;
+        }
+        .footer1 {
+            grid-area: footer1;
+            background: #c0392b;
+        }
+        .footer2 {
+            grid-area: footer2;
+            background: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar"></div>
+        <div class="header"></div>
+        <div class="main1"></div>
+        <div class="main2"></div>
+        <div class="banner1"></div>
+        <div class="banner2"></div>
+        <div class="footer1"></div>
+        <div class="footer2"></div>
+    </div>
+</body>
+</html>
